@@ -8,3 +8,11 @@ let y = gof 2
 
 printfn "gof of 2 %s" (string y)
 printfn "fog of 2 %s" (string x)
+
+let list = [1..10]
+
+let l = list |> List.map(fog)
+let m = list |> List.map(gof)
+
+printfn "%A" l
+printfn "%A" m
