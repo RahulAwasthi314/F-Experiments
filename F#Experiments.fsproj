@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>F_Experiments</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="FunctionComposition.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
